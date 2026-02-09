@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: sample-app
-          image: dakshsawhneyy/helloworld-v1:latest
+          image: dakshsawhneyy/helloworld-v2:latest
           ports:
             - containerPort: 8000
           resources:
