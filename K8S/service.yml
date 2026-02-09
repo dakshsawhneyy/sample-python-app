@@ -6,7 +6,7 @@ metadata:
     app: svc
 spec:
   selector:
-    app: app
+    app: sample-app
     role: web
   ports:
     - port: 8000
