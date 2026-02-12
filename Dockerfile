@@ -10,6 +10,7 @@ COPY requirements.txt .
 RUN python3 -m venv $VIRTUAL_ENV
 RUN pip install --no-cache-dir -r requirements.txt
 
+
 COPY hello_world.py .
 
 FROM python:3.12-slim
