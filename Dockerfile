@@ -5,6 +5,7 @@ WORKDIR /app
 ENV VIRTUAL_ENV=/app/venv
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
+
 COPY requirements.txt .
 
 RUN python3 -m venv $VIRTUAL_ENV
